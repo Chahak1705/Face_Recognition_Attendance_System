@@ -1,19 +1,3 @@
-"""
-register_faces.py
-Register known faces for the attendance system.
-
-Usage:
-  1. Place student photos inside known_faces/ folder.
-     Single photo:    known_faces/Chahak.jpg
-     Multiple photos: known_faces/Chahak_1.jpg, Chahak_2.jpg, Chahak_3.jpg ...
-     All photos with the same base name are averaged into one strong encoding.
-
-  2. Run: python register_faces.py
-     - New students are added automatically.
-     - Existing students are RE-encoded if new photos are detected.
-     - No need to delete encodings.pkl ever.
-"""
-
 import os
 import re
 import pickle
