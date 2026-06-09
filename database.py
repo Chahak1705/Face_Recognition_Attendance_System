@@ -1,8 +1,3 @@
-"""
-database.py — SQLite setup and helper functions
-Face Attendance System
-"""
-
 import sqlite3
 from datetime import date, datetime
 
